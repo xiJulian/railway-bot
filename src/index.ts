@@ -7,7 +7,7 @@ bot.on("ready", () =>
 
 bot.on("messageCreate", (message) => {
 	if (message.content === "!ping") {
-		bot.createMessage(message.channel.id, "Pong!");
+		bot.createMessage(message.channel.id, "Pong!!!!");
 	} else if (message.content === "Hello") {
 		bot.createMessage(message.channel.id, "Choo choo! 🚅");
 	}
